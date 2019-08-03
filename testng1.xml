@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Test">
+  
+  <groups>
+  <run>
+
+   <include name = "sanity"></include>
+   <exclude name ="smoke"></exclude>
+   
+  
+  </run>
+  </groups>
+    <classes>
+          <class name="tpkg.A1"/>
+          <class name="tpkg.B1"/>
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
